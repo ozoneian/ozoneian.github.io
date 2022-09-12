@@ -1,32 +1,134 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ozoneian's github page</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <nav>
-        <p>Ozoneian</p>
-        <div class="wrapper">
-            <ul>
-                <li> <a href="index.html">Home</a></li>
-                <li> <a href="aboutme.html">About me</a></li>
-                <li> <a href="contact.html">Contact</a></li>
-                <li> <a href="">Assignments</a>
-                    <ul>
-                        <li> <a href="subpages/bish-bosh.html">Bish-Bosh</a></li>
-                        <li> <a href="subpages/clock.html">Clock</a></li>
-                        <li> <a href="subpages/fivejs.html">Simple JavaScript</a></li>
-                        <li> <a href="subpages/createtable.html">Create a table</a></li>
-                    </ul>
-                </li>
-            </ul>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mitt CV</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+  <body>
+      <div class="p-5">
+        <div class="row">
+            <div class="col-4 bg-info">
+                <section>
+                    
+                    <h1>Emelie Sandberg</h1>
+                </section>
+            </div>
+            <div class="col-8">
+                <section>
+                    <h1>Utbildningar</h1>
+                    <div class="accordion" id="Utbildningar">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="uOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseUOne" aria-expanded="false" aria-controls="collapseUOne">
+                                IT-Högskolan, Stockholm
+                            </button>
+                          </h2>
+                          <div id="collapseUOne" class="accordion-collapse collapse" aria-labelledby="uOne" data-bs-parent="#Utbildningar">
+                            <div class="accordion-body">
+                              <strong>.NET-utvecklare</strong>
+                              <p>Kurser:</p>
+                              <ul>
+                                <li>Agil utveckling</li>
+                                <li>Avancerad programmering med C#</li>
+                                <li>Clean code och testbar kod</li>
+                                <li>Examensarbete</li>
+                                <li>Kundförståelse, konsultmässighet och rapportering</li>
+                                <li> Programmering med C#</li>
+                                <li> Utveckling mot databas och databasadministration</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="uTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseUTwo" aria-expanded="false" aria-controls="collapseUTwo">
+                                Stockholms universitet, Stockholm
+                            </button>
+                          </h2>
+                          <div id="collapseUTwo" class="accordion-collapse collapse" aria-labelledby="uTwo" data-bs-parent="#Utbildningar">
+                            <div class="accordion-body">
+                              <strong>Kandidatprogrammet i biogeovetenskap</strong></div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="uThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseUThree" aria-expanded="false" aria-controls="collapseUThree">
+                                Mediagymnasiet, Nacka 
+                            </button>
+                          </h2>
+                          <div id="collapseUThree" class="accordion-collapse collapse" aria-labelledby="uThree" data-bs-parent="#Utbildningar">
+                            <div class="accordion-body">
+                                <strong>Teknikutbildning med inriktning media- och informationsteknik</strong>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </section>
+                <section>
+                    <h1>Arbetslivserfarenheter</h1>
+                    <div class="accordion" id="Arbetslivserfarenheter">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="aOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAOne" aria-expanded="false" aria-controls="collapseAOne">
+                                Softronic
+                            </button>
+                          </h2>
+                          <div id="collapseAOne" class="accordion-collapse collapse" aria-labelledby="aOne" data-bs-parent="#Arbetslivserfarenheter">
+                            <div class="accordion-body">
+                              <strong>IT-Konsult</strong>
+    
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="aTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseATwo" aria-expanded="false" aria-controls="collapseATwo">
+                                Förskola, skola och pedagogisk omsorg
+                            </button>
+                          </h2>
+                          <div id="collapseATwo" class="accordion-collapse collapse" aria-labelledby="aTwo" data-bs-parent="#Arbetslivserfarenheter">
+                            <div class="accordion-body">
+                              <strong>Lärarvikarie</strong> Planera, leda och organisera förskolegrupper och lektioner i skolklasser
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="aThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAThree" aria-expanded="false" aria-controls="collapseAThree">
+                                Finnhamn Arkipelag AB 
+                            </button>
+                          </h2>
+                          <div id="collapseAThree" class="accordion-collapse collapse" aria-labelledby="aThree" data-bs-parent="#Arbetslivserfarenheter">
+                            <div class="accordion-body">
+                                <strong>Allt-i-allo (sommarjobb)</strong> Städning, inventering, redovisning, service och gästbemötande
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="aFour">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAFour" aria-expanded="false" aria-controls="collapseAFour">
+                                Film Stockholm
+                              </button>
+                            </h2>
+                            <div id="collapseAFour" class="accordion-collapse collapse" aria-labelledby="aFour" data-bs-parent="#Arbetslivserfarenheter">
+                              <div class="accordion-body">
+                                  <strong>Filmskapare (sommarjobb)</strong>
+                                  Filmning, kamerahantering, kundkontakt, ljudupptagning, manusskrivning och redigering
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                </section>
+            </div>
         </div>
-    </nav>
-    <div class="wrapper">
-        <h1>Ozoneian's github page!! wow</h1>
-    </div>  
-</body>
+        <div class="row bg-success">
+            <section>
+                <h1>Teknisk kompetens</h1>
+            </section>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
 </html>
